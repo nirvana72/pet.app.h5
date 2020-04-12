@@ -1,0 +1,82 @@
+$text_color: #757575;
+$border: 1px #e0e0e0 solid;
+
+/* 评论回复框*/
+.nj-comments {  
+  > div.comments-list {
+    
+    > div.comments-empty {
+      text-align: center;
+      margin-top: 100px;
+    }
+    > div.comment {
+      position: relative;
+      border-bottom: 1px #cccccc dashed;
+      padding: 10px 0;
+      .comments-avatar {
+        position: absolute;
+        top: 10px;
+        width: 30px;
+        border-radius: 50%;
+      }
+      div.comment-user {
+        padding: 5px 50px 5px 35px;
+        color: #757575;
+        .comment-reply {
+          color: #2196f3;
+        }
+      }
+      span.comment-author {
+        background-color: red;
+        color: white;
+        padding: 2px 4px;
+        border-radius: 2px;
+      }
+      div.comment-content {
+        padding-left: 35px;
+        padding-right: 20px;
+      }
+      div.comment-vote {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        button {
+          height: 30px;
+          line-height: 30px;
+          min-width: 10px;
+          color: #a2a2a2;
+          .v-icon {
+            color: #a2a2a2;
+            font-size: 18px;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+    .comment-loadmore {
+      text-align: center;      
+      > span {
+        background-color:#757575;
+        color: white;
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 0.8em;
+      }
+    }
+    .subcomment {
+      position: relative;
+      margin-left: 30px;
+      .subcomment-avatar {
+        position: absolute;
+        top: 5px;
+        width: 26px;
+        border-radius: 50%;
+      }
+      .comment-vote {
+        .v-btn {
+          margin-top:0px;
+        }
+      }
+    }
+  }  
+}

@@ -1,0 +1,73 @@
+// 文章
+.nj-article-show {
+  margin: 0 20px;
+  > .nj-avatar {
+    text-align: center;
+    padding-top: 20px;
+    img {
+      width: 60px;
+      border-radius: 50%;
+    }
+  }
+  > .nj-tit {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  > .nj-author {
+    font-size: 14px;
+    font-weight: normal;
+    color: #888888;
+  }
+  > .nj-images {
+    margin-top: 20px;
+    line-height: 0;
+    img {
+      margin-left: 3px;
+      margin-top: 3px;
+    }
+    img:nth-child(1),
+    img:nth-child(4),
+    img:nth-child(7) {
+      margin-left: 0px;
+    }
+  }
+  > .nj-video {
+    width:100%;
+    text-align:center;
+    position:relative;
+    background:#000000;
+    .v-icon {
+      position:absolute;
+      left:50%;
+      margin-left:-25px;
+      top:50%;
+      margin-top:-25px;
+      opacity:0.8;
+    }
+    span.duration {
+      position:absolute;
+      right:10px;
+      bottom:5px;
+      color:#ffffff
+    }
+  }
+  > .nj-content {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.8em;
+    .oss-image {
+      width: 100%;
+    }
+    .oss-video {
+      width: 100%;
+      max-height: 240px;
+      background-color: #000000;
+    }
+  }
+  > .nj-postAddr {
+    padding-top: 20px;
+    .nj-place {
+      font-size: 20px;
+    }
+  }
+}
